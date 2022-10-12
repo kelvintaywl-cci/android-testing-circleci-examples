@@ -25,7 +25,7 @@ jobs:
           command: |
             sleep 2m
             tail -f "/var/log/dpkg.log"
-      - run: sleep 3m
+      - run: sleep 30
 
 workflows:
   workflow:
